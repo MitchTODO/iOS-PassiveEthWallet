@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024BFBBB3427578B5B706948 /* Pods_PassiveWallet__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB67ED540AF98A2E9FC557 /* Pods_PassiveWallet__iOS_.framework */; };
+		301F117427BC6AC800027E8F /* web3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117327BC6AC800027E8F /* web3.swift */; };
+		301F117527BC6AC800027E8F /* web3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117327BC6AC800027E8F /* web3.swift */; };
+		301F117827BEC92A00027E8F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117727BEC92A00027E8F /* WalletView.swift */; };
+		301F117927BEC92A00027E8F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117727BEC92A00027E8F /* WalletView.swift */; };
+		301F117B27C011E600027E8F /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117A27C011E600027E8F /* Keys.swift */; };
+		301F117C27C011E600027E8F /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117A27C011E600027E8F /* Keys.swift */; };
+		301F117F27C0192F00027E8F /* EndpointA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117E27C0192F00027E8F /* EndpointA.swift */; };
+		301F118027C0192F00027E8F /* EndpointA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F117E27C0192F00027E8F /* EndpointA.swift */; };
+		3033ECBF27EA680E007FEAD1 /* CovalentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033ECBE27EA680E007FEAD1 /* CovalentView.swift */; };
+		3033ECC027EA680E007FEAD1 /* CovalentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033ECBE27EA680E007FEAD1 /* CovalentView.swift */; };
+		303585FA27BAD3B400E1A5D8 /* PassiveWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 303585E727BAD3B300E1A5D8 /* PassiveWallet.xcdatamodeld */; };
+		303585FB27BAD3B400E1A5D8 /* PassiveWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 303585E727BAD3B300E1A5D8 /* PassiveWallet.xcdatamodeld */; };
+		303585FC27BAD3B400E1A5D8 /* PassiveWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303585E927BAD3B300E1A5D8 /* PassiveWalletApp.swift */; };
+		303585FD27BAD3B400E1A5D8 /* PassiveWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303585E927BAD3B300E1A5D8 /* PassiveWalletApp.swift */; };
+		303585FE27BAD3B400E1A5D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303585EA27BAD3B300E1A5D8 /* ContentView.swift */; };
+		303585FF27BAD3B400E1A5D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303585EA27BAD3B300E1A5D8 /* ContentView.swift */; };
+		3035860027BAD3B400E1A5D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303585EB27BAD3B300E1A5D8 /* Persistence.swift */; };
+		3035860127BAD3B400E1A5D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303585EB27BAD3B300E1A5D8 /* Persistence.swift */; };
+		3035860227BAD3B400E1A5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303585EC27BAD3B400E1A5D8 /* Assets.xcassets */; };
+		3035860327BAD3B400E1A5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303585EC27BAD3B400E1A5D8 /* Assets.xcassets */; };
+		303DCBEE27C6D3DE008DB503 /* Uniswap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBED27C6D3DE008DB503 /* Uniswap.swift */; };
+		303DCBEF27C6D3DE008DB503 /* Uniswap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBED27C6D3DE008DB503 /* Uniswap.swift */; };
+		303DCBF527C95C11008DB503 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBF427C95C11008DB503 /* Utils.swift */; };
+		303DCBF627C95C11008DB503 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBF427C95C11008DB503 /* Utils.swift */; };
+		303DCBF827C96B84008DB503 /* XYK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBF727C96B84008DB503 /* XYK.swift */; };
+		303DCBF927C96B84008DB503 /* XYK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBF727C96B84008DB503 /* XYK.swift */; };
+		303DCBFB27C96C73008DB503 /* PancakeSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBFA27C96C73008DB503 /* PancakeSwap.swift */; };
+		303DCBFC27C96C73008DB503 /* PancakeSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBFA27C96C73008DB503 /* PancakeSwap.swift */; };
+		303DCBFE27C96E34008DB503 /* SushiSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBFD27C96E34008DB503 /* SushiSwap.swift */; };
+		303DCBFF27C96E34008DB503 /* SushiSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCBFD27C96E34008DB503 /* SushiSwap.swift */; };
+		303DCC0127C96FAE008DB503 /* Aave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0027C96FAE008DB503 /* Aave.swift */; };
+		303DCC0227C96FAE008DB503 /* Aave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0027C96FAE008DB503 /* Aave.swift */; };
+		303DCC0427C970C9008DB503 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0327C970C9008DB503 /* Compound.swift */; };
+		303DCC0527C970C9008DB503 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0327C970C9008DB503 /* Compound.swift */; };
+		303DCC0727C9711C008DB503 /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0627C9711C008DB503 /* Curve.swift */; };
+		303DCC0827C9711C008DB503 /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0627C9711C008DB503 /* Curve.swift */; };
+		303DCC0A27C97169008DB503 /* Balancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0927C97169008DB503 /* Balancer.swift */; };
+		303DCC0B27C97169008DB503 /* Balancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0927C97169008DB503 /* Balancer.swift */; };
+		303DCC0D27C97BDC008DB503 /* CovalentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0C27C97BDC008DB503 /* CovalentItem.swift */; };
+		303DCC0E27C97BDC008DB503 /* CovalentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303DCC0C27C97BDC008DB503 /* CovalentItem.swift */; };
+		3069C6F527BB3ED900A143FE /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 3069C6F427BB3ED900A143FE /* CodeScanner */; };
+		3069C6FA27BB4D2700A143FE /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069C6F927BB4D2700A143FE /* QRCodeScannerView.swift */; };
+		3069C6FB27BB4D2700A143FE /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069C6F927BB4D2700A143FE /* QRCodeScannerView.swift */; };
+		30D0AE6227BB2FA9007A9E83 /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0AE6127BB2FA9007A9E83 /* PopUpWindow.swift */; };
+		30D0AE6327BB2FA9007A9E83 /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0AE6127BB2FA9007A9E83 /* PopUpWindow.swift */; };
+		30FB20D427EADF6500498598 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20C927EADF6500498598 /* TitilliumWeb-SemiBold.ttf */; };
+		30FB20D527EADF6500498598 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20C927EADF6500498598 /* TitilliumWeb-SemiBold.ttf */; };
+		30FB20D627EADF6500498598 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CA27EADF6500498598 /* TitilliumWeb-LightItalic.ttf */; };
+		30FB20D727EADF6500498598 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CA27EADF6500498598 /* TitilliumWeb-LightItalic.ttf */; };
+		30FB20D827EADF6500498598 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CB27EADF6500498598 /* TitilliumWeb-Black.ttf */; };
+		30FB20D927EADF6500498598 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CB27EADF6500498598 /* TitilliumWeb-Black.ttf */; };
+		30FB20DA27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CC27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		30FB20DB27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CC27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		30FB20DC27EADF6500498598 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CD27EADF6500498598 /* TitilliumWeb-Regular.ttf */; };
+		30FB20DD27EADF6500498598 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CD27EADF6500498598 /* TitilliumWeb-Regular.ttf */; };
+		30FB20DE27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CE27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		30FB20DF27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CE27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		30FB20E027EADF6500498598 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CF27EADF6500498598 /* TitilliumWeb-Italic.ttf */; };
+		30FB20E127EADF6500498598 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20CF27EADF6500498598 /* TitilliumWeb-Italic.ttf */; };
+		30FB20E227EADF6500498598 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D027EADF6500498598 /* TitilliumWeb-Bold.ttf */; };
+		30FB20E327EADF6500498598 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D027EADF6500498598 /* TitilliumWeb-Bold.ttf */; };
+		30FB20E427EADF6500498598 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D127EADF6500498598 /* TitilliumWeb-Light.ttf */; };
+		30FB20E527EADF6500498598 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D127EADF6500498598 /* TitilliumWeb-Light.ttf */; };
+		30FB20E627EADF6500498598 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D227EADF6500498598 /* TitilliumWeb-BoldItalic.ttf */; };
+		30FB20E727EADF6500498598 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D227EADF6500498598 /* TitilliumWeb-BoldItalic.ttf */; };
+		30FB20E827EADF6500498598 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D327EADF6500498598 /* TitilliumWeb-ExtraLight.ttf */; };
+		30FB20E927EADF6500498598 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20D327EADF6500498598 /* TitilliumWeb-ExtraLight.ttf */; };
+		30FB20EF27EAE32700498598 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20EE27EAE32700498598 /* Colors.xcassets */; };
+		30FB20F027EAE32700498598 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FB20EE27EAE32700498598 /* Colors.xcassets */; };
+		8EF9E9FB4C682968CBFFE35A /* Pods_PassiveWallet__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F56B7276E01861821F9D71 /* Pods_PassiveWallet__macOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14F56B7276E01861821F9D71 /* Pods_PassiveWallet__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassiveWallet__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301F117327BC6AC800027E8F /* web3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web3.swift; sourceTree = "<group>"; };
+		301F117727BEC92A00027E8F /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		301F117A27C011E600027E8F /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		301F117E27C0192F00027E8F /* EndpointA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointA.swift; sourceTree = "<group>"; };
+		3033ECBE27EA680E007FEAD1 /* CovalentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovalentView.swift; sourceTree = "<group>"; };
+		303585E827BAD3B300E1A5D8 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		303585E927BAD3B300E1A5D8 /* PassiveWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassiveWalletApp.swift; sourceTree = "<group>"; };
+		303585EA27BAD3B300E1A5D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303585EB27BAD3B300E1A5D8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		303585EC27BAD3B400E1A5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303585F127BAD3B400E1A5D8 /* PassiveWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassiveWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303585F727BAD3B400E1A5D8 /* PassiveWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassiveWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303585F927BAD3B400E1A5D8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		303DCBED27C6D3DE008DB503 /* Uniswap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uniswap.swift; sourceTree = "<group>"; };
+		303DCBF427C95C11008DB503 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		303DCBF727C96B84008DB503 /* XYK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYK.swift; sourceTree = "<group>"; };
+		303DCBFA27C96C73008DB503 /* PancakeSwap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PancakeSwap.swift; sourceTree = "<group>"; };
+		303DCBFD27C96E34008DB503 /* SushiSwap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiSwap.swift; sourceTree = "<group>"; };
+		303DCC0027C96FAE008DB503 /* Aave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aave.swift; sourceTree = "<group>"; };
+		303DCC0327C970C9008DB503 /* Compound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compound.swift; sourceTree = "<group>"; };
+		303DCC0627C9711C008DB503 /* Curve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curve.swift; sourceTree = "<group>"; };
+		303DCC0927C97169008DB503 /* Balancer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balancer.swift; sourceTree = "<group>"; };
+		303DCC0C27C97BDC008DB503 /* CovalentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovalentItem.swift; sourceTree = "<group>"; };
+		3069C6F927BB4D2700A143FE /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
+		30D0AE6127BB2FA9007A9E83 /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
+		30FB20C827EADC8100498598 /* PassiveWallet--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PassiveWallet--iOS--Info.plist"; sourceTree = "<group>"; };
+		30FB20C927EADF6500498598 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		30FB20CA27EADF6500498598 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		30FB20CB27EADF6500498598 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		30FB20CC27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		30FB20CD27EADF6500498598 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		30FB20CE27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		30FB20CF27EADF6500498598 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		30FB20D027EADF6500498598 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		30FB20D127EADF6500498598 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		30FB20D227EADF6500498598 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		30FB20D327EADF6500498598 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		30FB20EE27EAE32700498598 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		37AB67ED540AF98A2E9FC557 /* Pods_PassiveWallet__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassiveWallet__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		705BB4DFA98C64E4D829E880 /* Pods-PassiveWallet (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveWallet (macOS).debug.xcconfig"; path = "Target Support Files/Pods-PassiveWallet (macOS)/Pods-PassiveWallet (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		784FD37D68B7A5515299E16B /* Pods-PassiveWallet (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveWallet (iOS).release.xcconfig"; path = "Target Support Files/Pods-PassiveWallet (iOS)/Pods-PassiveWallet (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		9AA1333C996B9CADE4B40A43 /* Pods-PassiveWallet (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveWallet (iOS).debug.xcconfig"; path = "Target Support Files/Pods-PassiveWallet (iOS)/Pods-PassiveWallet (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		E8003C97979DB82F247B5931 /* Pods-PassiveWallet (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassiveWallet (macOS).release.xcconfig"; path = "Target Support Files/Pods-PassiveWallet (macOS)/Pods-PassiveWallet (macOS).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303585EE27BAD3B400E1A5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3069C6F527BB3ED900A143FE /* CodeScanner in Frameworks */,
+				024BFBBB3427578B5B706948 /* Pods_PassiveWallet__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303585F427BAD3B400E1A5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF9E9FB4C682968CBFFE35A /* Pods_PassiveWallet__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301F117627BEC90A00027E8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3069C6F927BB4D2700A143FE /* QRCodeScannerView.swift */,
+				30D0AE6127BB2FA9007A9E83 /* PopUpWindow.swift */,
+				301F117727BEC92A00027E8F /* WalletView.swift */,
+				3033ECBE27EA680E007FEAD1 /* CovalentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		301F117D27C0190900027E8F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				301F117E27C0192F00027E8F /* EndpointA.swift */,
+				303DCC0C27C97BDC008DB503 /* CovalentItem.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		303585E127BAD3B300E1A5D8 = {
+			isa = PBXGroup;
+			children = (
+				30FB20C827EADC8100498598 /* PassiveWallet--iOS--Info.plist */,
+				303585E627BAD3B300E1A5D8 /* Shared */,
+				303585F827BAD3B400E1A5D8 /* macOS */,
+				303585F227BAD3B400E1A5D8 /* Products */,
+				801EE18D26A27FB497AFAA13 /* Pods */,
+				F4933FD093DEE9A34BE24C86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		303585E627BAD3B300E1A5D8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30FB20EA27EAE2C700498598 /* Color */,
+				30FB20C427EADB3900498598 /* Fonts */,
+				303DCBF027C7103F008DB503 /* Network */,
+				301F117D27C0190900027E8F /* Modules */,
+				301F117627BEC90A00027E8F /* Views */,
+				303585E927BAD3B300E1A5D8 /* PassiveWalletApp.swift */,
+				303585EA27BAD3B300E1A5D8 /* ContentView.swift */,
+				303585EB27BAD3B300E1A5D8 /* Persistence.swift */,
+				303585EC27BAD3B400E1A5D8 /* Assets.xcassets */,
+				303585E727BAD3B300E1A5D8 /* PassiveWallet.xcdatamodeld */,
+				301F117327BC6AC800027E8F /* web3.swift */,
+				303DCBF427C95C11008DB503 /* Utils.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		303585F227BAD3B400E1A5D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303585F127BAD3B400E1A5D8 /* PassiveWallet.app */,
+				303585F727BAD3B400E1A5D8 /* PassiveWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303585F827BAD3B400E1A5D8 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				303585F927BAD3B400E1A5D8 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		303DCBEC27C6D3C8008DB503 /* Pools */ = {
+			isa = PBXGroup;
+			children = (
+				303DCBED27C6D3DE008DB503 /* Uniswap.swift */,
+				303DCBFA27C96C73008DB503 /* PancakeSwap.swift */,
+				303DCBFD27C96E34008DB503 /* SushiSwap.swift */,
+				303DCBF727C96B84008DB503 /* XYK.swift */,
+				303DCC0027C96FAE008DB503 /* Aave.swift */,
+				303DCC0327C970C9008DB503 /* Compound.swift */,
+				303DCC0627C9711C008DB503 /* Curve.swift */,
+				303DCC0927C97169008DB503 /* Balancer.swift */,
+			);
+			path = Pools;
+			sourceTree = "<group>";
+		};
+		303DCBF027C7103F008DB503 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				301F117A27C011E600027E8F /* Keys.swift */,
+				303DCBEC27C6D3C8008DB503 /* Pools */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		30FB20C427EADB3900498598 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30FB20CB27EADF6500498598 /* TitilliumWeb-Black.ttf */,
+				30FB20D027EADF6500498598 /* TitilliumWeb-Bold.ttf */,
+				30FB20D227EADF6500498598 /* TitilliumWeb-BoldItalic.ttf */,
+				30FB20D327EADF6500498598 /* TitilliumWeb-ExtraLight.ttf */,
+				30FB20CE27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				30FB20CF27EADF6500498598 /* TitilliumWeb-Italic.ttf */,
+				30FB20D127EADF6500498598 /* TitilliumWeb-Light.ttf */,
+				30FB20CA27EADF6500498598 /* TitilliumWeb-LightItalic.ttf */,
+				30FB20CD27EADF6500498598 /* TitilliumWeb-Regular.ttf */,
+				30FB20C927EADF6500498598 /* TitilliumWeb-SemiBold.ttf */,
+				30FB20CC27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		30FB20EA27EAE2C700498598 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				30FB20EE27EAE32700498598 /* Colors.xcassets */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		801EE18D26A27FB497AFAA13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AA1333C996B9CADE4B40A43 /* Pods-PassiveWallet (iOS).debug.xcconfig */,
+				784FD37D68B7A5515299E16B /* Pods-PassiveWallet (iOS).release.xcconfig */,
+				705BB4DFA98C64E4D829E880 /* Pods-PassiveWallet (macOS).debug.xcconfig */,
+				E8003C97979DB82F247B5931 /* Pods-PassiveWallet (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4933FD093DEE9A34BE24C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37AB67ED540AF98A2E9FC557 /* Pods_PassiveWallet__iOS_.framework */,
+				14F56B7276E01861821F9D71 /* Pods_PassiveWallet__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303585F027BAD3B400E1A5D8 /* PassiveWallet (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3035860627BAD3B400E1A5D8 /* Build configuration list for PBXNativeTarget "PassiveWallet (iOS)" */;
+			buildPhases = (
+				C63A1B5FBF7038055CBBA176 /* [CP] Check Pods Manifest.lock */,
+				303585ED27BAD3B400E1A5D8 /* Sources */,
+				303585EE27BAD3B400E1A5D8 /* Frameworks */,
+				303585EF27BAD3B400E1A5D8 /* Resources */,
+				33B71D3925B4EE47376783C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PassiveWallet (iOS)";
+			packageProductDependencies = (
+				3069C6F427BB3ED900A143FE /* CodeScanner */,
+			);
+			productName = "PassiveWallet (iOS)";
+			productReference = 303585F127BAD3B400E1A5D8 /* PassiveWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303585F627BAD3B400E1A5D8 /* PassiveWallet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3035860927BAD3B400E1A5D8 /* Build configuration list for PBXNativeTarget "PassiveWallet (macOS)" */;
+			buildPhases = (
+				5C3CB7EA2A5F8045F7414405 /* [CP] Check Pods Manifest.lock */,
+				303585F327BAD3B400E1A5D8 /* Sources */,
+				303585F427BAD3B400E1A5D8 /* Frameworks */,
+				303585F527BAD3B400E1A5D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PassiveWallet (macOS)";
+			productName = "PassiveWallet (macOS)";
+			productReference = 303585F727BAD3B400E1A5D8 /* PassiveWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303585E227BAD3B300E1A5D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					303585F027BAD3B400E1A5D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					303585F627BAD3B400E1A5D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 303585E527BAD3B300E1A5D8 /* Build configuration list for PBXProject "PassiveWallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303585E127BAD3B300E1A5D8;
+			packageReferences = (
+				3069C6F327BB3ED900A143FE /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 303585F227BAD3B400E1A5D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303585F027BAD3B400E1A5D8 /* PassiveWallet (iOS) */,
+				303585F627BAD3B400E1A5D8 /* PassiveWallet (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303585EF27BAD3B400E1A5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB20E227EADF6500498598 /* TitilliumWeb-Bold.ttf in Resources */,
+				30FB20DA27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				30FB20EF27EAE32700498598 /* Colors.xcassets in Resources */,
+				30FB20DC27EADF6500498598 /* TitilliumWeb-Regular.ttf in Resources */,
+				30FB20D827EADF6500498598 /* TitilliumWeb-Black.ttf in Resources */,
+				30FB20E027EADF6500498598 /* TitilliumWeb-Italic.ttf in Resources */,
+				3035860227BAD3B400E1A5D8 /* Assets.xcassets in Resources */,
+				30FB20D427EADF6500498598 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				30FB20DE27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				30FB20E427EADF6500498598 /* TitilliumWeb-Light.ttf in Resources */,
+				30FB20D627EADF6500498598 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				30FB20E627EADF6500498598 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				30FB20E827EADF6500498598 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303585F527BAD3B400E1A5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB20E327EADF6500498598 /* TitilliumWeb-Bold.ttf in Resources */,
+				30FB20DB27EADF6500498598 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				30FB20F027EAE32700498598 /* Colors.xcassets in Resources */,
+				30FB20DD27EADF6500498598 /* TitilliumWeb-Regular.ttf in Resources */,
+				30FB20D927EADF6500498598 /* TitilliumWeb-Black.ttf in Resources */,
+				30FB20E127EADF6500498598 /* TitilliumWeb-Italic.ttf in Resources */,
+				3035860327BAD3B400E1A5D8 /* Assets.xcassets in Resources */,
+				30FB20D527EADF6500498598 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				30FB20DF27EADF6500498598 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				30FB20E527EADF6500498598 /* TitilliumWeb-Light.ttf in Resources */,
+				30FB20D727EADF6500498598 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				30FB20E727EADF6500498598 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				30FB20E927EADF6500498598 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33B71D3925B4EE47376783C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassiveWallet (iOS)/Pods-PassiveWallet (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassiveWallet (iOS)/Pods-PassiveWallet (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassiveWallet (iOS)/Pods-PassiveWallet (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3CB7EA2A5F8045F7414405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassiveWallet (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63A1B5FBF7038055CBBA176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassiveWallet (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303585ED27BAD3B400E1A5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301F117F27C0192F00027E8F /* EndpointA.swift in Sources */,
+				303DCBFE27C96E34008DB503 /* SushiSwap.swift in Sources */,
+				301F117B27C011E600027E8F /* Keys.swift in Sources */,
+				303DCC0727C9711C008DB503 /* Curve.swift in Sources */,
+				303585FC27BAD3B400E1A5D8 /* PassiveWalletApp.swift in Sources */,
+				3033ECBF27EA680E007FEAD1 /* CovalentView.swift in Sources */,
+				303DCC0427C970C9008DB503 /* Compound.swift in Sources */,
+				301F117427BC6AC800027E8F /* web3.swift in Sources */,
+				303DCBFB27C96C73008DB503 /* PancakeSwap.swift in Sources */,
+				303DCC0A27C97169008DB503 /* Balancer.swift in Sources */,
+				303DCBF527C95C11008DB503 /* Utils.swift in Sources */,
+				3035860027BAD3B400E1A5D8 /* Persistence.swift in Sources */,
+				303DCC0127C96FAE008DB503 /* Aave.swift in Sources */,
+				303585FA27BAD3B400E1A5D8 /* PassiveWallet.xcdatamodeld in Sources */,
+				303DCC0D27C97BDC008DB503 /* CovalentItem.swift in Sources */,
+				303DCBF827C96B84008DB503 /* XYK.swift in Sources */,
+				303DCBEE27C6D3DE008DB503 /* Uniswap.swift in Sources */,
+				303585FE27BAD3B400E1A5D8 /* ContentView.swift in Sources */,
+				30D0AE6227BB2FA9007A9E83 /* PopUpWindow.swift in Sources */,
+				3069C6FA27BB4D2700A143FE /* QRCodeScannerView.swift in Sources */,
+				301F117827BEC92A00027E8F /* WalletView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303585F327BAD3B400E1A5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301F118027C0192F00027E8F /* EndpointA.swift in Sources */,
+				303DCBFF27C96E34008DB503 /* SushiSwap.swift in Sources */,
+				301F117C27C011E600027E8F /* Keys.swift in Sources */,
+				303DCC0827C9711C008DB503 /* Curve.swift in Sources */,
+				303585FD27BAD3B400E1A5D8 /* PassiveWalletApp.swift in Sources */,
+				3033ECC027EA680E007FEAD1 /* CovalentView.swift in Sources */,
+				303DCC0527C970C9008DB503 /* Compound.swift in Sources */,
+				301F117527BC6AC800027E8F /* web3.swift in Sources */,
+				303DCBFC27C96C73008DB503 /* PancakeSwap.swift in Sources */,
+				303DCC0B27C97169008DB503 /* Balancer.swift in Sources */,
+				303DCBF627C95C11008DB503 /* Utils.swift in Sources */,
+				3035860127BAD3B400E1A5D8 /* Persistence.swift in Sources */,
+				303DCC0227C96FAE008DB503 /* Aave.swift in Sources */,
+				303585FB27BAD3B400E1A5D8 /* PassiveWallet.xcdatamodeld in Sources */,
+				303DCC0E27C97BDC008DB503 /* CovalentItem.swift in Sources */,
+				303DCBF927C96B84008DB503 /* XYK.swift in Sources */,
+				303DCBEF27C6D3DE008DB503 /* Uniswap.swift in Sources */,
+				303585FF27BAD3B400E1A5D8 /* ContentView.swift in Sources */,
+				30D0AE6327BB2FA9007A9E83 /* PopUpWindow.swift in Sources */,
+				3069C6FB27BB4D2700A143FE /* QRCodeScannerView.swift in Sources */,
+				301F117927BEC92A00027E8F /* WalletView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3035860427BAD3B400E1A5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3035860527BAD3B400E1A5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3035860727BAD3B400E1A5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA1333C996B9CADE4B40A43 /* Pods-PassiveWallet (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SRGSW2NQ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PassiveWallet--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOT.PassiveWallet;
+				PRODUCT_NAME = PassiveWallet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3035860827BAD3B400E1A5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784FD37D68B7A5515299E16B /* Pods-PassiveWallet (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SRGSW2NQ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PassiveWallet--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOT.PassiveWallet;
+				PRODUCT_NAME = PassiveWallet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3035860A27BAD3B400E1A5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705BB4DFA98C64E4D829E880 /* Pods-PassiveWallet (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SRGSW2NQ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOT.PassiveWallet;
+				PRODUCT_NAME = PassiveWallet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3035860B27BAD3B400E1A5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8003C97979DB82F247B5931 /* Pods-PassiveWallet (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SRGSW2NQ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOT.PassiveWallet;
+				PRODUCT_NAME = PassiveWallet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303585E527BAD3B300E1A5D8 /* Build configuration list for PBXProject "PassiveWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3035860427BAD3B400E1A5D8 /* Debug */,
+				3035860527BAD3B400E1A5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3035860627BAD3B400E1A5D8 /* Build configuration list for PBXNativeTarget "PassiveWallet (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3035860727BAD3B400E1A5D8 /* Debug */,
+				3035860827BAD3B400E1A5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3035860927BAD3B400E1A5D8 /* Build configuration list for PBXNativeTarget "PassiveWallet (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3035860A27BAD3B400E1A5D8 /* Debug */,
+				3035860B27BAD3B400E1A5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3069C6F327BB3ED900A143FE /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3069C6F427BB3ED900A143FE /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3069C6F327BB3ED900A143FE /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		303585E727BAD3B300E1A5D8 /* PassiveWallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				303585E827BAD3B300E1A5D8 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 303585E827BAD3B300E1A5D8 /* Shared.xcdatamodel */;
+			path = PassiveWallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 303585E227BAD3B300E1A5D8 /* Project object */;
+}
